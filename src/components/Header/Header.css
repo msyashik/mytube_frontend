@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-links {
+  cursor: pointer;
+  font-weight: 450;
+  color: rosybrown;
+  font-size: large;
+}
+.remove-underline {
+  text-decoration: none;
+}
+.my-tube-text {
+  cursor: pointer;
+  color: rosybrown;
+}

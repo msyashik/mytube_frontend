@@ -1,0 +1,14 @@
+.like-dislike-button {
+  cursor: pointer;
+}
+.like-dislike {
+  display: flex;
+  justify-content: center;
+}
+.like-dislike-color {
+  color: blue;
+}
+.liked-by-uploaded-by-disliked-by-text {
+  font-weight: bold;
+  color: sienna;
+}
