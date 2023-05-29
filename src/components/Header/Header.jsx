@@ -22,21 +22,26 @@ const Header = () => {
       <div className="header-options">
         {!userInfo && (
           <Link className="remove-underline" to="/login">
-            <p className="header-links">Login</p>
+            <p className="header-links ms-2">Login</p>
           </Link>
         )}
         {!userInfo && (
           <Link className="remove-underline" to="/register">
-            <p className="header-links">Register</p>
+            <p className="header-links ms-2">Register</p>
+          </Link>
+        )}
+        {userInfo && (
+          <Link className="remove-underline" to="/">
+            <p className="header-links ms-2">Home</p>
           </Link>
         )}
         {userInfo && (
           <Link className="remove-underline" to="/dashboard">
-            <p className="header-links">Dashboard</p>
+            <p className="header-links ms-2">Dashboard</p>
           </Link>
         )}
         {userInfo && (
-          <p onClick={handleLogout} className="header-links">
+          <p onClick={handleLogout} className="header-links ms-2">
             Logout
           </p>
         )}
